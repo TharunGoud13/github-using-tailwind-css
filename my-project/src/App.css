@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  height: 40px;
+  width: 40px;
+
+  padding-right: 10px;
+  padding-top: 4px;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+  width: 100vw;
+}
+input {
+  padding: 0px;
+  border-radius: 2px;
+  padding: 5px;
+  border: 1px solid black;
+  padding-bottom: 5px;
+}
+.button {
+  border: 1px solid blue;
+}
+.git-container {
+  background-image: url("https://images2.alphacoders.com/985/thumb-1920-985381.jpg");
+  margin-top: 0px;
+  background-size: cover;
+  width: inherit;
+}
+.btn-container {
+  background-color: "#1f2937";
+  width: cover;
+}
